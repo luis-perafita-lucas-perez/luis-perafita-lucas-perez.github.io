@@ -1,0 +1,142 @@
+* {
+  font-family: "Rubik", sans-serif, sans-serif;
+}
+
+* {
+  color: #260101 !important;
+}
+
+.color {
+  background-color: #d9a60d !important;
+}
+
+.logo-text {
+  font-size: 20px !important;
+  font-weight: 500 !important;
+}
+
+.logo {
+  position: relative !important;
+  margin-bottom: 10px;
+}
+
+.span{
+  border-bottom: 4px solid #BF800B;
+}
+
+.line{
+  border-bottom: 1px solid black !important;
+}
+
+.degra {
+  background: #ffb75e;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,
+      #ed8f03,
+      #ffb75e);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,
+      #ed8f03,
+      #ffb75e);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* .nav-link{
+    font-weight: 500 !important;
+
+} */
+
+/* .collapse{
+    align-items: center !important;
+} */
+
+.col-color-d {
+  background-color: #bf800b !important;
+}
+
+.img-heig {
+  height: 500px;
+width:100%;
+}
+
+.color-foot {
+  background-color: #f2e74b !important;
+}
+
+.btn-warning{
+  background-color: #F2E74B !important;
+}
+
+.backgr-color{
+  background-color: #f2f2f2 !important;
+}
+
+/* .image {
+  position: relative;
+  width: 100%; 
+  }    */
+
+  .wrap{
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    align-items:center;
+    /* justify-content: center; */
+    background:  url('./../Img Banco Luil/ultima.jpg') ;
+    background-size: cover;
+    background-position: 100%;
+    }
+
+  .wrap-qs{
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    align-items:center;
+    /* justify-content: center; */
+    background:  url('./../Img Banco Luil/somos.jpg') ;
+    background-size: cover;
+    background-position: 100%;
+    }
+
+.cuadr-amarillo{
+  width: 400px;
+  height: 400px;
+  /* background-color: #f2e74b; */
+  background-color: rgba(242, 231, 75, 0.5);
+  align-items:center;
+
+}
+.border-radius{
+  background-color: #F2E74B;
+  border-radius: 9999px;
+  width: 80 !important; 
+  height: 80 !important;
+}
+
+.wrap-DEB{
+  width: 100vh;
+  height: 100vh;
+  display: flex;
+  align-items:center;
+  /* justify-content: center; */
+  background:  url('./../Img Banco Luil/Luil Debito 1.jpg') ;
+  background-size: cover;
+  background-position: 100%;
+  
+}
+
+
+.sin-vinetas {
+  list-style: none; /* Elimina las viñetas */
+}
+
+@media screen and (max-width: 912px) {
+  .offset-md-3 {
+    margin-left: 0% !important;
+  }
+
+  /* .pt-0p{
+    padding: 0 !important;
+  } */
+}
+
