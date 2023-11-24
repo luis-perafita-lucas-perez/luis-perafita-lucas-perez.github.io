@@ -56,7 +56,7 @@
 
 .img-heig {
   height: 500px;
-width:100%;
+width:55%;
 }
 
 .color-foot {
@@ -98,6 +98,7 @@ width:100%;
     background-position: 100%;
     }
 
+
 .cuadr-amarillo{
   width: 400px;
   height: 400px;
@@ -129,6 +130,12 @@ width:100%;
 .sin-vinetas {
   list-style: none; /* Elimina las viñetas */
 }
+
+
+.no-underline {
+  text-decoration: none; /* Elimina el subrayado */
+}
+
 
 @media screen and (max-width: 912px) {
   .offset-md-3 {
