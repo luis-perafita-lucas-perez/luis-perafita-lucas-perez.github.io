@@ -50,6 +50,8 @@
     align-items: center !important;
 } */
 
+
+
 .col-color-d {
   background-color: #bf800b !important;
 }
@@ -140,6 +142,12 @@ width:55%;
   --bs-accordion-active-bg: #F2E74B !important;
 }
 
+textarea:focus, input:focus, input[type]:focus {
+  border-color: #F2E74B;
+  box-shadow: 0 1px 1px #2601012a inset, 0 0 8px #bf800b9e;
+  outline: 0 none;
+}
+
 
 
 @media screen and (max-width: 912px) {
@@ -150,5 +158,6 @@ width:55%;
   /* .pt-0p{
     padding: 0 !important;
   } */
+
 }
 
