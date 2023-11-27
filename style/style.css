@@ -154,7 +154,10 @@ textarea:focus, input:focus, input[type]:focus {
   .offset-md-3 {
     margin-left: 0% !important;
   }
-
+  #imagenPrinc {
+    width: 95%;
+    
+  }
   /* .pt-0p{
     padding: 0 !important;
   } */
